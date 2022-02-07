@@ -1,4 +1,6 @@
+Read Me File
 
+See Live project - https://afsana1313.github.io/admin/
 User id and password '../src/static/logindata.js.
 ========
 1. id: 'user1234', password: '1234user'
