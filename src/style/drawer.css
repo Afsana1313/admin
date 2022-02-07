@@ -1,0 +1,36 @@
+.drawer{
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgb(116, 133, 170);
+    transition: all 0.5s ease-in-out;
+    padding: 0 30px;
+}
+.drawer-header{
+    width: 100%;
+    text-align: right;
+}
+.drawer-header > * {
+    margin: 10px 10px 0 0 ;
+}
+.drawer form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.drawer form input, textarea{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.submit-btn{
+    border: none;
+    width: 100px;
+    border-radius: 32px;
+    font-weight: bold;
+    font-size: 18px;
+}

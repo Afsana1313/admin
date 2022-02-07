@@ -1,0 +1,21 @@
+.login-form{
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 30px 0;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.login-form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-form form input{
+    margin: 10px 0;
+}
